@@ -15,19 +15,19 @@ public class Principal {
 
     public static void main(String[] args) {
         Carro carro = new Carro();
-        Scanner scan1=new Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
         System.out.print(carro.nome);
-        carro.nome=scan1.next();
+        carro.setNome(scan.next());
         System.out.print(carro.marca);
-        carro.marca=scan1.next();
+        carro.setMarca(scan.next());
         System.out.print(carro.cor);
-        carro.cor=scan1.next();
+        carro.setCor(scan.next());
         System.out.print(carro.fabricacao);
-        carro.fabricacao=scan1.next();
+        carro.setFabricacao(scan.next());
         System.out.print(carro.largura);
-        carro.largura=scan1.next();
+        carro.setLargura(scan.next());
         System.out.print(carro.peso);
-        carro.peso=scan1.next();
+        carro.setPeso(scan.next());
         
         System.out.println("nome"+carro.nome);
         System.out.println("marca"+carro.marca);
